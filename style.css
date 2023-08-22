@@ -1,0 +1,234 @@
+
+
+.nav{
+  display: flex;
+ top: 0;
+ left: 0;
+ margin: 0;
+ padding: 0;
+  position: static;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px;
+  padding: 2px;
+  width: 100%;
+  z-index: 30px;
+}
+.nav_left{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 2px;
+  object-fit: cover;
+  
+}
+.nav_left >p{
+  font-size: 20px;
+  margin: 3px;
+  padding: 4px;
+}
+
+.nav_left >p >span{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 3px;
+  padding: 4px;
+}
+.nav_right{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-right: 90px;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.Home:hover{
+ color: rgb(172, 170, 166);
+  cursor:  pointer;
+}
+.About:hover{
+  color: rgb(172, 170, 166);
+   cursor:  pointer;
+ }
+ .Carries:hover{
+  color: rgb(172, 170, 166);
+   cursor:  pointer;
+ }
+ .Gallery:hover{
+  color: rgb(172, 170, 166);
+   cursor:  pointer;
+ }
+ .Contact:hover{
+  color: rgb(172, 170, 166);
+   cursor:  pointer;
+ }
+
+.sMain{
+ align-items: center;
+ justify-content: flex-start;
+}
+
+ .donate>p{
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 200px;
+  color: aliceblue;
+  position: absolute;
+  top: 90px;
+  left: 130px;
+
+ }
+
+ .donate>p>span{
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-size: 100px;
+  color: aliceblue;
+  position: absolute;
+  top: 220px;
+  left: 4px;
+  font-weight: 600;
+  width: 100%;
+ }
+
+ .test{
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-size: 40px;
+  color: aliceblue;
+  position: absolute;
+  top:600px;
+  left: 150px;
+  font-weight: 200;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+ .know >button{
+  margin: 3px;
+  padding: 3px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 5px;
+  display: block;
+}
+
+.know>button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+.buttons1{
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-size: 400px;
+  color: aliceblue;
+  position: absolute;
+  bottom:-80px;
+  left: 150px;
+  font-weight: 600;
+ 
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.buttons2{
+  font-family: 'Times New Roman', Times, serif;
+  size: 50px;
+  font-size: 400px;
+  color: aliceblue;
+  position: absolute;
+  bottom:-80px;
+  left: 400px;
+  font-weight: 600;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.buttons1 >button{
+  margin: 3px;
+  padding: 3px;
+  border-radius: 20px;
+  width: 90px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.buttons2>button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.buttons2 >button{
+  margin: 3px;
+  padding: 3px;
+  border-radius: 20px;
+  width: 90px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.buttons2>button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
